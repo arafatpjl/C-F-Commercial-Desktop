@@ -1,0 +1,26 @@
+# Build output
+**/bin/
+**/obj/
+**/logs/
+
+# Legacy VB6 application — see .gitignore for why none of this ships
+*.frm
+*.frx
+*.vbp
+*.vbw
+*.bas
+*.exe
+*.ico
+*.SCC
+MainDataPath.ini
+Database/
+Report/
+Thumbs.db
+
+# Local tooling
+.git/
+.vs/
+.idea/
+**/*.user
+docker-compose*.yml
+Dockerfile
